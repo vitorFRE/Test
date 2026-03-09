@@ -26,4 +26,4 @@ pnpm run build
 
 ## Deploy
 
-[Link do deploy](https://) *(preencher depois)*
+[Link do deploy](https://test-liart-tau-24.vercel.app/)
