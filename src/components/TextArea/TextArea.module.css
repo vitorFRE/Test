@@ -1,0 +1,26 @@
+.textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 0.5rem 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.textarea::placeholder {
+  color: #CCCCCC;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #7695EC;
+}
+
+.textarea.error {
+  border-color: #c00;
+}

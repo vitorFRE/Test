@@ -1,0 +1,12 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.summary {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #777777;
+}

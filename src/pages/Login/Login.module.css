@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  background-color: #dddddd;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  padding: 1.5rem 1.5rem 1.25rem;
+  width: 100%;
+  max-width: 500px;
+  min-height: 205px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0 0 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.instruction {
+  margin: 0 0 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.error {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #c00;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.25rem;
+}

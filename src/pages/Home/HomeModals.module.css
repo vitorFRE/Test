@@ -1,0 +1,59 @@
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.editTitleGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.editContentGroup {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.editLabel {
+  margin: 0 0 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.editActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.deleteConfirmText {
+  margin: 0 0 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.deleteActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .deleteActions {
+    gap: 0.25rem;
+  }
+}
+
+.modalBtn {
+  width: 120px;
+  min-width: 120px;
+}
