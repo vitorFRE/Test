@@ -16,6 +16,10 @@
   padding: 1.688rem 2.313rem;
   background-color: #7695ec;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .title {
@@ -27,6 +31,10 @@
   letter-spacing: 0;
   color: #ffffff;
   opacity: 1;
+}
+
+.logoutBtn {
+  flex-shrink: 0;
 }
 
 .main {

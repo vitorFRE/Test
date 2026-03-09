@@ -9,7 +9,11 @@ import { STORAGE_KEYS } from "../../constants/storage";
 import { useCareersList, PAGE_SIZE } from "../../hooks/useCareersList";
 import styles from "./Home.module.css";
 
-export function Home() {
+interface HomeProps {
+  onLogout: () => void;
+}
+
+export function Home({ onLogout }: HomeProps) {
   const username = localStorage.getItem(STORAGE_KEYS.USERNAME) ?? "";
   const {
     posts,
@@ -72,6 +76,14 @@ export function Home() {
     <div className={styles.wrapper}>
       <header className={styles.header}>
         <h1 className={styles.title}>CodeLeap Network</h1>
+        <Button
+          type="button"
+          variant="secondary"
+          className={styles.logoutBtn}
+          onClick={onLogout}
+        >
+          Logout
+        </Button>
       </header>
       <main className={styles.main}>
         <CreatePostCard onSubmit={handleCreatePost} />

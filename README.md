@@ -11,6 +11,7 @@
 ## Funcionalidades
 
 - Login com nome de usuário (salvo no navegador)
+- Logout pelo botão no header
 - Criar novo post (título e conteúdo)
 - Listar posts em ordem cronológica
 - Editar e excluir apenas os posts do usuário logado
